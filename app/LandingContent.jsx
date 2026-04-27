@@ -428,7 +428,7 @@ function Hero() {
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
                 <div>
                   <div style={{ fontFamily: "var(--font-primary)", fontSize: "0.8rem", color: "var(--white-dim)", letterSpacing: "0.1em" }}>OPAL DASHBOARD</div>
-                  <div style={{ fontFamily: "var(--font-secondary)", fontSize: "1.1rem", fontWeight: 600, color: "var(--white)", marginTop: "2px" }}>Today's Focus</div>
+                  <div style={{ fontFamily: "var(--font-secondary)", fontSize: "1.1rem", fontWeight: 600, color: "var(--white)", marginTop: "2px" }}>Today&apos;s Focus</div>
                 </div>
                 <div style={{ background: "rgba(255,255,255,0.1)", border: "1px solid var(--white)", borderRadius: "8px", padding: "6px 14px" }}>
                   <span style={{ fontFamily: "var(--font-primary)", fontSize: "0.75rem", color: "var(--white-dim)" }}>8 tasks</span>
@@ -930,7 +930,7 @@ function Footer() {
               </div>
               {status === "success" && (
                 <p style={{ fontFamily: "var(--font-secondary)", fontSize: "0.78rem", color: "#4ade80", marginTop: "8px" }}>
-                  You're subscribed! Welcome to the Opal community 🎉
+                  You&apos;re subscribed! Welcome to the Opal community 🎉
                 </p>
               )}
             </form>
