@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { motion, useScroll, useTransform, AnimatePresence } from "motion/react";
+import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import {
   CheckCircle, Zap, Layout, Pointer, ChevronLeft, ChevronRight,
   Menu, X, ArrowRight, Star, Shield, BarChart3, Clock, Users,
