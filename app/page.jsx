@@ -208,7 +208,7 @@ function Navbar() {
         animate={{ y: 0 }}
         transition={{ duration: 0.7, ease: "easeOut" }}
         style={{
-          position: "fixed", top: 0, left: 0, right: 0, zIndex: 100,
+          position: "fixed", top: "0px", left: "0px", right: "0px", zIndex: 100,
           padding: "0 5%",
           background: scrolled ? "rgba(5,8,16,0.92)" : "transparent",
           backdropFilter: scrolled ? "blur(20px)" : "none",
@@ -221,7 +221,7 @@ function Navbar() {
         {/* Logo */}
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
           <div style={{
-            width: 34, height: 34,
+            width: "34px", height: "34px",
             background: "linear-gradient(135deg, #1d6cf6, #3d82ff)",
             clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
             display: "flex", alignItems: "center", justifyContent: "center"
@@ -280,7 +280,7 @@ function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             style={{
-              position: "fixed", top: 68, left: 0, right: 0, zIndex: 99,
+              position: "fixed", top: "68px", left: "0px", right: "0px", zIndex: 99,
               background: "rgba(5,8,16,0.97)", backdropFilter: "blur(20px)",
               borderBottom: "1px solid var(--border)",
               padding: "20px 5%", display: "flex", flexDirection: "column", gap: 16
@@ -336,7 +336,7 @@ function Hero() {
         >
           {/* Eyebrow */}
           <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 24 }}>
-            <div style={{ width: 32, height: 1, background: "var(--blue)" }} />
+            <div style={{ width: "32px", height: "1px", background: "var(--blue)" }} />
             <span style={{ fontFamily: "var(--font-primary)", fontSize: "0.78rem", letterSpacing: "0.2em", color: "var(--blue-light)", textTransform: "uppercase" }}>
               The Future of Task Management
             </span>
@@ -386,7 +386,7 @@ function Hero() {
             <div style={{ display: "flex" }}>
               {[1,2,3,4].map(i => (
                 <div key={i} style={{
-                  width: 28, height: 28, borderRadius: "50%",
+                  width: "28px", height: "28px", borderRadius: "50%",
                   background: `hsl(${210 + i*15},60%,${40 + i*8}%)`,
                   border: "2px solid var(--black)", marginLeft: i > 1 ? -10 : 0
                 }} />
@@ -455,7 +455,7 @@ function Hero() {
                   }}
                 >
                   <div style={{
-                    width: 18, height: 18, borderRadius: 4, flexShrink: 0,
+                    width: "18px", height: "18px", borderRadius: 4, flexShrink: 0,
                     background: task.done ? "var(--blue)" : "transparent",
                     border: task.done ? "none" : "1px solid rgba(255,255,255,0.2)",
                     display: "flex", alignItems: "center", justifyContent: "center"
@@ -483,11 +483,11 @@ function Hero() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 1.2 }}
               style={{
-                position: "absolute", top: -16, right: -16,
+                position: "absolute", top: "-16px", right: "-16px",
                 background: "linear-gradient(135deg, #1d6cf6, #3d82ff)",
-                borderRadius: 12, padding: "8px 14px",
+                borderRadius: "12px", padding: "8px 14px",
                 boxShadow: "0 4px 20px rgba(29,108,246,0.5)",
-                display: "flex", alignItems: "center", gap: 6
+                display: "flex", alignItems: "center", gap: "6px"
               }}
             >
               <Bell size={13} color="#fff" />
@@ -779,7 +779,7 @@ function Pricing() {
             >
               {plan.popular && (
                 <div style={{
-                  position: "absolute", top: -14, left: "50%", transform: "translateX(-50%)",
+                  position: "absolute", top: "-14px", left: "50%", transform: "translateX(-50%)",
                   background: "linear-gradient(135deg, #1d6cf6, #3d82ff)",
                   borderRadius: 20, padding: "4px 18px",
                   fontFamily: "var(--font-primary)", fontSize: "0.72rem", letterSpacing: "0.12em", color: "#fff"
@@ -883,18 +883,18 @@ function TestimonialCard({ position, testimonial, handleMove, cardSize }) {
       }}
     >
       <span style={{
-        position: "absolute", right: -2, top: 40,
+        position: "absolute", right: "-2px", top: "40px",
         width: SQRT_5000, height: 2,
         background: "rgba(255,255,255,0.1)",
         display: "block",
         transform: "rotate(45deg)",
         transformOrigin: "top right",
       }} />
-      <img src={testimonial.img} alt="" style={{ width: 44, height: 52, objectFit: "cover", objectPosition: "top", marginBottom: 14, boxShadow: "3px 3px 0 rgba(0,0,0,0.3)" }} />
+      <img src={testimonial.img} alt="" style={{ width: "44px", height: "52px", objectFit: "cover", objectPosition: "top", marginBottom: 14, boxShadow: "3px 3px 0 rgba(0,0,0,0.3)" }} />
       <p style={{ fontFamily: "var(--font-secondary)", fontSize: "0.92rem", fontWeight: 500, color: isCenter ? "#fff" : "var(--white)", lineHeight: 1.6, marginBottom: 12 }}>
         &ldquo;{testimonial.text}&rdquo;
       </p>
-      <p style={{ position: "absolute", bottom: 28, left: 28, right: 28, fontFamily: "var(--font-secondary)", fontSize: "0.78rem", fontStyle: "italic", color: isCenter ? "rgba(255,255,255,0.8)" : "var(--white-dim)" }}>
+      <p style={{ position: "absolute", bottom: "28px", left: "28px", right: "28px", fontFamily: "var(--font-secondary)", fontSize: "0.78rem", fontStyle: "italic", color: isCenter ? "rgba(255,255,255,0.8)" : "var(--white-dim)" }}>
         — {testimonial.by}
       </p>
     </div>
@@ -974,7 +974,7 @@ function Testimonials() {
               key={dir}
               onClick={() => handleMove(dir)}
               style={{
-                width: 52, height: 52, display: "flex", alignItems: "center", justifyContent: "center",
+                width: "52px", height: "52px", display: "flex", alignItems: "center", justifyContent: "center",
                 background: "var(--black-3)", border: "1px solid var(--border)", cursor: "pointer",
                 color: "var(--white)", transition: "all 0.3s"
               }}
@@ -1038,7 +1038,7 @@ function Footer() {
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 16 }}>
               <div style={{
-                width: 36, height: 36,
+                width: "36px", height: "36px",
                 background: "linear-gradient(135deg, #1d6cf6, #3d82ff)",
                 clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
                 display: "flex", alignItems: "center", justifyContent: "center"
