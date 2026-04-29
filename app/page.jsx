@@ -412,7 +412,7 @@ function Hero() {
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 20 }}>
                 <div>
                   <div style={{ fontFamily: "var(--font-primary)", fontSize: "0.8rem", color: "var(--blue-light)", letterSpacing: "0.1em" }}>OPAL DASHBOARD</div>
-                  <div style={{ fontFamily: "var(--font-secondary)", fontSize: "1.1rem", fontWeight: 600, color: "var(--white)", marginTop: 2 }}>Today's Focus</div>
+                  <div style={{ fontFamily: "var(--font-secondary)", fontSize: "1.1rem", fontWeight: 600, color: "var(--white)", marginTop: 2 }}>Today&apos;s Focus</div>
                 </div>
                 <div style={{ background: "var(--blue-dim)", border: "1px solid var(--blue)", borderRadius: 8, padding: "6px 14px" }}>
                   <span style={{ fontFamily: "var(--font-primary)", fontSize: "0.75rem", color: "var(--blue-light)" }}>8 tasks</span>
@@ -755,7 +755,7 @@ function Pricing() {
             <span style={{ color: "var(--blue-light)" }}>PRODUCTIVITY</span>
           </h2>
           <p className="section-sub" style={{ maxWidth: 500, margin: "0 auto" }}>
-            No surprises. No hidden fees. Start free and scale when you're ready.
+            No surprises. No hidden fees. Start free and scale when you&apos;re ready.
           </p>
         </motion.div>
 
@@ -892,7 +892,7 @@ function TestimonialCard({ position, testimonial, handleMove, cardSize }) {
       }} />
       <img src={testimonial.img} alt="" style={{ width: 44, height: 52, objectFit: "cover", objectPosition: "top", marginBottom: 14, boxShadow: "3px 3px 0 rgba(0,0,0,0.3)" }} />
       <p style={{ fontFamily: "var(--font-secondary)", fontSize: "0.92rem", fontWeight: 500, color: isCenter ? "#fff" : "var(--white)", lineHeight: 1.6, marginBottom: 12 }}>
-        "{testimonial.text}"
+        &ldquo;{testimonial.text}&rdquo;
       </p>
       <p style={{ position: "absolute", bottom: 28, left: 28, right: 28, fontFamily: "var(--font-secondary)", fontSize: "0.78rem", fontStyle: "italic", color: isCenter ? "rgba(255,255,255,0.8)" : "var(--white-dim)" }}>
         — {testimonial.by}
@@ -1128,7 +1128,7 @@ function Footer() {
               </div>
               {status === "success" && (
                 <p style={{ fontFamily: "var(--font-secondary)", fontSize: "0.78rem", color: "#4ade80", marginTop: 8 }}>
-                  You're subscribed! Welcome to the Opal community 🎉
+                  You&apos;re subscribed! Welcome to the Opal community 🎉
                 </p>
               )}
             </form>
