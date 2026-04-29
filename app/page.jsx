@@ -853,8 +853,8 @@ function Pricing() {
 const testimonials = [
   { id: 0, text: "Opal completely changed how our engineering team operates. We shipped 40% more features last quarter.", by: "Sarah K., VP Engineering at Vertikal", img: "https://i.pravatar.cc/150?img=1" },
   { id: 1, text: "The AI prioritization alone is worth 10x the price. I never miss what matters anymore.", by: "Marcus T., Founder at LayerOne", img: "https://i.pravatar.cc/150?img=2" },
-  { id: 2, text: "I've tried every todo app out there. Opal is the first one I actually stuck with.", by: "Priya R., Product Lead at Nexus", img: "https://i.pravatar.cc/150?img=3" },
-  { id: 3, text: "Our team collaboration improved overnight. Real-time sync means no more 'I didn't see that' excuses.", by: "James W., CTO at DataShift", img: "https://i.pravatar.cc/150?img=4" },
+  { id: 2, text: "I&apos;ve tried every todo app out there. Opal is the first one I actually stuck with.", by: "Priya R., Product Lead at Nexus", img: "https://i.pravatar.cc/150?img=3" },
+  { id: 3, text: "Our team collaboration improved overnight. Real-time sync means no more &apos;I didn&apos;t see that&apos; excuses.", by: "James W., CTO at DataShift", img: "https://i.pravatar.cc/150?img=4" },
   { id: 4, text: "The analytics dashboard showed us we were spending 60% of time on low-impact work. Game changer.", by: "Amina D., COO at BuildFast", img: "https://i.pravatar.cc/150?img=5" },
   { id: 5, text: "Setup took 10 minutes. Our team was fully onboarded in an hour. Opal just works.", by: "Leo N., CTO at Sprinto", img: "https://i.pravatar.cc/150?img=6" },
   { id: 6, text: "I recommended Opal to 3 other founders after just one week. That never happens.", by: "Rachel B., Founder at Orbit", img: "https://i.pravatar.cc/150?img=7" },
